@@ -1,0 +1,23 @@
+{
+  "invoice_number": null,
+  "invoice_date": null,
+  "due_date": null,
+  "vendor_name": null,
+  "buyer_name": null,
+  "currency": null,
+  "subtotal": null,
+  "tax_amount": null,
+  "total_amount": null,
+  "vendor_gstin": null,
+  "buyer_gstin": null,
+  "vendor_pan": null,
+  "place_of_supply": null,
+  "tax_type": null,
+  "cgst": null,
+  "sgst": null,
+  "igst": null,
+  "line_items": [],
+  "defect": "not_invoice",
+  "expected_needs_review": true,
+  "defect_detail": "delivery_challan: not an invoice"
+}

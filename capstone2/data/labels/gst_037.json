@@ -1,0 +1,31 @@
+{
+  "invoice_number": "SAS/138/25-26",
+  "invoice_date": "2026-01-02",
+  "due_date": "2026-02-16",
+  "vendor_name": "Sastry-Bandi",
+  "buyer_name": "Kurian Enterprises",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 7.0,
+      "unit_price": 196.61,
+      "gst_rate": 12,
+      "amount": 1376.27
+    }
+  ],
+  "subtotal": 1376.27,
+  "tax_amount": 165.15,
+  "total_amount": 1541.42,
+  "vendor_gstin": "24EVWLS9624C7Z0",
+  "buyer_gstin": "27KYPPK4711E3Z3",
+  "vendor_pan": "EVWLS9624C",
+  "place_of_supply": "27-Maharashtra",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 165.15,
+  "defect": null,
+  "expected_needs_review": false
+}

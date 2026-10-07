@@ -1,0 +1,304 @@
+{
+  "invoice_number": "MUR/282/25-26",
+  "invoice_date": "2025-05-30",
+  "due_date": "2025-06-14",
+  "vendor_name": "Murthy, Bhandari and Bedi",
+  "buyer_name": "Koshy Enterprises",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 7.0,
+      "unit_price": 287.18,
+      "gst_rate": 12,
+      "amount": 2010.26
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 17.0,
+      "unit_price": 122.71,
+      "gst_rate": 5,
+      "amount": 2086.07
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 10.0,
+      "unit_price": 7755.62,
+      "gst_rate": 18,
+      "amount": 77556.2
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 19.0,
+      "unit_price": 217.01,
+      "gst_rate": 12,
+      "amount": 4123.19
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 2.0,
+      "unit_price": 18587.06,
+      "gst_rate": 18,
+      "amount": 37174.12
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 2.0,
+      "unit_price": 21700.14,
+      "gst_rate": 18,
+      "amount": 43400.28
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 4.0,
+      "unit_price": 109.38,
+      "gst_rate": 12,
+      "amount": 437.52
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 2.0,
+      "unit_price": 29058.08,
+      "gst_rate": 28,
+      "amount": 58116.16
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 9.0,
+      "unit_price": 616.95,
+      "gst_rate": 12,
+      "amount": 5552.55
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 11.0,
+      "unit_price": 245.66,
+      "gst_rate": 12,
+      "amount": 2702.26
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 10.0,
+      "unit_price": 47076.52,
+      "gst_rate": 18,
+      "amount": 470765.2
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 1.0,
+      "unit_price": 36364.14,
+      "gst_rate": 18,
+      "amount": 36364.14
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 1.0,
+      "unit_price": 36370.7,
+      "gst_rate": 18,
+      "amount": 36370.7
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 2.0,
+      "unit_price": 3703.8,
+      "gst_rate": 12,
+      "amount": 7407.6
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 28.0,
+      "unit_price": 127.15,
+      "gst_rate": 5,
+      "amount": 3560.2
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 24.0,
+      "unit_price": 278.79,
+      "gst_rate": 12,
+      "amount": 6690.96
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 1.0,
+      "unit_price": 27220.43,
+      "gst_rate": 5,
+      "amount": 27220.43
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 16.0,
+      "unit_price": 2200.32,
+      "gst_rate": 5,
+      "amount": 35205.12
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 36.0,
+      "unit_price": 809.63,
+      "gst_rate": 12,
+      "amount": 29146.68
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 5.0,
+      "unit_price": 45987.46,
+      "gst_rate": 28,
+      "amount": 229937.3
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 11.0,
+      "unit_price": 2571.45,
+      "gst_rate": 5,
+      "amount": 28285.95
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 1.0,
+      "unit_price": 26738.95,
+      "gst_rate": 5,
+      "amount": 26738.95
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 1.0,
+      "unit_price": 74720.74,
+      "gst_rate": 18,
+      "amount": 74720.74
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 27.0,
+      "unit_price": 745.74,
+      "gst_rate": 12,
+      "amount": 20134.98
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 10.0,
+      "unit_price": 4959.12,
+      "gst_rate": 12,
+      "amount": 49591.2
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 11.0,
+      "unit_price": 255.35,
+      "gst_rate": 12,
+      "amount": 2808.85
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 3.0,
+      "unit_price": 10785.58,
+      "gst_rate": 18,
+      "amount": 32356.74
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 3.0,
+      "unit_price": 1723.39,
+      "gst_rate": 12,
+      "amount": 5170.17
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 3.0,
+      "unit_price": 2423.12,
+      "gst_rate": 12,
+      "amount": 7269.36
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 1.0,
+      "unit_price": 1726.08,
+      "gst_rate": 12,
+      "amount": 1726.08
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 1.0,
+      "unit_price": 17743.24,
+      "gst_rate": 18,
+      "amount": 17743.24
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 5.0,
+      "unit_price": 293.05,
+      "gst_rate": 12,
+      "amount": 1465.25
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 23.0,
+      "unit_price": 224.71,
+      "gst_rate": 12,
+      "amount": 5168.33
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 10.0,
+      "unit_price": 51547.59,
+      "gst_rate": 28,
+      "amount": 515475.9
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 2.0,
+      "unit_price": 85442.79,
+      "gst_rate": 18,
+      "amount": 170885.58
+    }
+  ],
+  "subtotal": 2075368.26,
+  "tax_amount": 428832.32,
+  "total_amount": 2504200.58,
+  "vendor_gstin": "32CRGTM5345E6ZM",
+  "buyer_gstin": "07RWJTK9666A9ZE",
+  "vendor_pan": "CRGTM5345E",
+  "place_of_supply": "07-Delhi",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 428832.32,
+  "defect": "multi_page",
+  "expected_needs_review": false,
+  "defect_detail": "35 line items across multiple pages; totals on last page"
+}

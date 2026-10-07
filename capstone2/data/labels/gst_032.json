@@ -1,0 +1,31 @@
+{
+  "invoice_number": "INV-2025-2768",
+  "invoice_date": "2025-11-05",
+  "due_date": "2025-11-20",
+  "vendor_name": "Majumdar Pvt Ltd",
+  "buyer_name": "Pai-Natarajan",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 3.0,
+      "unit_price": 81143.32,
+      "gst_rate": 18,
+      "amount": 243429.96
+    }
+  ],
+  "subtotal": 243429.96,
+  "tax_amount": 43817.39,
+  "total_amount": 287247.35,
+  "vendor_gstin": "27XNQCM2041P8ZD",
+  "buyer_gstin": "32QHTCP9543J8ZR",
+  "vendor_pan": "XNQCM2041P",
+  "place_of_supply": "32-Kerala",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 43817.39,
+  "defect": null,
+  "expected_needs_review": false
+}

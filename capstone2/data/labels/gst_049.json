@@ -1,0 +1,47 @@
+{
+  "invoice_number": "INV-2025-2789",
+  "invoice_date": "2025-06-10",
+  "due_date": "2025-06-25",
+  "vendor_name": "Bhalla-Pandey",
+  "buyer_name": "Rajagopalan & Sons",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 17.0,
+      "unit_price": 3539.89,
+      "gst_rate": 12,
+      "amount": 60178.13
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 13.0,
+      "unit_price": 2393.54,
+      "gst_rate": 5,
+      "amount": 31116.02
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 36.0,
+      "unit_price": 236.2,
+      "gst_rate": 12,
+      "amount": 8503.2
+    }
+  ],
+  "subtotal": 99797.35,
+  "tax_amount": 9797.56,
+  "total_amount": 109594.91,
+  "vendor_gstin": "07KPLTB5480J2Z6",
+  "buyer_gstin": "32YZEFR1689J2ZW",
+  "vendor_pan": "KPLTB5480J",
+  "place_of_supply": "32-Kerala",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9797.56,
+  "defect": null,
+  "expected_needs_review": false
+}

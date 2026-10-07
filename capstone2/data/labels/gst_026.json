@@ -1,0 +1,47 @@
+{
+  "invoice_number": "GST49210",
+  "invoice_date": "2025-11-13",
+  "due_date": "2025-12-13",
+  "vendor_name": "Swamy-Borah",
+  "buyer_name": "Virk Pvt Ltd",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 17.0,
+      "unit_price": 3233.99,
+      "gst_rate": 12,
+      "amount": 54977.83
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 3.0,
+      "unit_price": 27283.26,
+      "gst_rate": 5,
+      "amount": 81849.78
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 5.0,
+      "unit_price": 8845.1,
+      "gst_rate": 18,
+      "amount": 44225.5
+    }
+  ],
+  "subtotal": 181053.11,
+  "tax_amount": 18650.42,
+  "total_amount": 199703.53,
+  "vendor_gstin": "36LLNPS5000Q7Z2",
+  "buyer_gstin": "33TVHHV3344H8Z7",
+  "vendor_pan": "LLNPS5000Q",
+  "place_of_supply": "33-Tamil Nadu",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 18650.42,
+  "defect": null,
+  "expected_needs_review": false
+}

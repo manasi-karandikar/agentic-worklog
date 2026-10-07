@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invx"
+version = "0.1.0"
+description = "Invoice PDF extraction CLI using Gemini native PDF input"
+requires-python = ">=3.11"
+dependencies = [
+  "google-genai",
+  "pydantic>=2",
+  "typer",
+  "rich",
+  "python-dotenv",
+  "pymupdf",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "reportlab", "faker", "jinja2", "playwright", "pymupdf", "augraphy", "numpy", "pillow"]
+
+[project.scripts]
+invx = "invx.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

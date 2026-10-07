@@ -1,0 +1,39 @@
+{
+  "invoice_number": "LAL/572/25-26",
+  "invoice_date": "2026-01-18",
+  "due_date": "2026-03-04",
+  "vendor_name": "Lalla PLC",
+  "buyer_name": "Narang Solutions LLP",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 31.0,
+      "unit_price": 279.83,
+      "gst_rate": 12,
+      "amount": 8674.73
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 24.0,
+      "unit_price": 2213.97,
+      "gst_rate": 5,
+      "amount": 53135.28
+    }
+  ],
+  "subtotal": 61810.01,
+  "tax_amount": 3697.72,
+  "total_amount": 65507.73,
+  "vendor_gstin": "33FFWTL3712X8ZV",
+  "buyer_gstin": "33OTJLN8355H9ZZ",
+  "vendor_pan": "FFWTL3712X",
+  "place_of_supply": "33-Tamil Nadu",
+  "tax_type": "CGST+SGST",
+  "cgst": 1848.86,
+  "sgst": 1848.86,
+  "igst": 0.0,
+  "defect": null,
+  "expected_needs_review": false
+}

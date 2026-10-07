@@ -1,0 +1,64 @@
+{
+  "invoice_number": "KAK/235/25-26",
+  "invoice_date": "2025-06-29",
+  "due_date": "2025-08-13",
+  "vendor_name": "Kakar Traders",
+  "buyer_name": "Mani Ltd",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 9.0,
+      "unit_price": 221.93,
+      "gst_rate": 12,
+      "amount": 1997.37
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 10.0,
+      "unit_price": 4458.64,
+      "gst_rate": 18,
+      "amount": 44586.4
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 3.0,
+      "unit_price": 3417.52,
+      "gst_rate": 5,
+      "amount": 10252.56
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 9.0,
+      "unit_price": 190.3,
+      "gst_rate": 12,
+      "amount": 1712.7
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 21.0,
+      "unit_price": 246.97,
+      "gst_rate": 12,
+      "amount": 5186.37
+    }
+  ],
+  "subtotal": 63735.4,
+  "tax_amount": 9605.74,
+  "total_amount": 72941.14,
+  "vendor_gstin": "32AVMFK1132S1ZW",
+  "buyer_gstin": "09YZHTM6772H4ZV",
+  "vendor_pan": "AVMFK1132S",
+  "place_of_supply": "09-Uttar Pradesh",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9605.74,
+  "defect": "total_mismatch",
+  "expected_needs_review": true,
+  "defect_detail": "printed total off by -400 (not fixed in label)"
+}

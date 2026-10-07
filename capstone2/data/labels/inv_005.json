@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2026-7482",
+  "invoice_date": "2025-04-19",
+  "due_date": "2025-06-03",
+  "vendor_name": "Garcia-James",
+  "buyer_name": "Abbott-Munoz",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Courier charges",
+      "quantity": 7.0,
+      "unit_price": 250.25,
+      "amount": 1751.75
+    },
+    {
+      "description": "Consulting services",
+      "quantity": 4.0,
+      "unit_price": 619.31,
+      "amount": 2477.24
+    },
+    {
+      "description": "Training workshop",
+      "quantity": 4.0,
+      "unit_price": 741.4,
+      "amount": 2965.6
+    },
+    {
+      "description": "Office supplies",
+      "quantity": 7.0,
+      "unit_price": 248.29,
+      "amount": 1738.03
+    }
+  ],
+  "subtotal": 8932.62,
+  "tax_amount": 1071.91,
+  "total_amount": 10004.53,
+  "defect": null,
+  "expected_needs_review": false
+}

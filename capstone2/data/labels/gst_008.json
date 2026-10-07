@@ -1,0 +1,63 @@
+{
+  "invoice_number": "INV-2025-5915",
+  "invoice_date": "2025-06-07",
+  "due_date": "2025-06-22",
+  "vendor_name": "Chaudhari-Bedi",
+  "buyer_name": "Lanka Industries",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 38.0,
+      "unit_price": 2113.42,
+      "gst_rate": 5,
+      "amount": 80309.96
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 1.0,
+      "unit_price": 128037.23,
+      "gst_rate": 18,
+      "amount": 128037.23
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 5.0,
+      "unit_price": 149784.37,
+      "gst_rate": 18,
+      "amount": 748921.85
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 14.0,
+      "unit_price": 230.64,
+      "gst_rate": 12,
+      "amount": 3228.96
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 16.0,
+      "unit_price": 327.18,
+      "gst_rate": 12,
+      "amount": 5234.88
+    }
+  ],
+  "subtotal": 965732.88,
+  "tax_amount": 162883.8,
+  "total_amount": 1128616.68,
+  "vendor_gstin": "27BXKCC1821S8ZN",
+  "buyer_gstin": "32FCTCL4853M2ZL",
+  "vendor_pan": "BXKCC1821S",
+  "place_of_supply": "32-Kerala",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 162883.8,
+  "defect": null,
+  "expected_needs_review": false
+}

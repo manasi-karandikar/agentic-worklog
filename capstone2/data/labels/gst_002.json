@@ -1,0 +1,40 @@
+{
+  "invoice_number": "INV-2025-9751",
+  "invoice_date": null,
+  "due_date": "2025-07-27",
+  "vendor_name": "Chanda Group",
+  "buyer_name": "Pathak Enterprises",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 23.0,
+      "unit_price": 283.42,
+      "gst_rate": 12,
+      "amount": 6518.66
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 5.0,
+      "unit_price": 217.92,
+      "gst_rate": 12,
+      "amount": 1089.6
+    }
+  ],
+  "subtotal": 7608.26,
+  "tax_amount": 912.99,
+  "total_amount": 8521.25,
+  "vendor_gstin": "27DMCTC5803U6Z8",
+  "buyer_gstin": "33CHDHP5554O6Z6",
+  "vendor_pan": "DMCTC5803U",
+  "place_of_supply": "33-Tamil Nadu",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 912.99,
+  "defect": "invalid_date_or_gstin",
+  "expected_needs_review": true,
+  "defect_detail": "impossible invoice date printed as 31/02/2025; label null"
+}

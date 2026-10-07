@@ -1,0 +1,39 @@
+{
+  "invoice_number": "RAV/839/25-26",
+  "invoice_date": "2025-11-20",
+  "due_date": "2026-01-04",
+  "vendor_name": "Ravel Traders",
+  "buyer_name": "Krishnamurthy-Kashyap",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 5.0,
+      "unit_price": 39899.6,
+      "gst_rate": 18,
+      "amount": 199498.0
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 3.0,
+      "unit_price": 3447.26,
+      "gst_rate": 18,
+      "amount": 10341.78
+    }
+  ],
+  "subtotal": 209839.78,
+  "tax_amount": 37771.16,
+  "total_amount": 247610.94,
+  "vendor_gstin": "08WHSHR4826Y7ZG",
+  "buyer_gstin": "08MVZLK3492P1Z8",
+  "vendor_pan": "WHSHR4826Y",
+  "place_of_supply": "08-Rajasthan",
+  "tax_type": "CGST+SGST",
+  "cgst": 18885.58,
+  "sgst": 18885.58,
+  "igst": 0.0,
+  "defect": null,
+  "expected_needs_review": false
+}

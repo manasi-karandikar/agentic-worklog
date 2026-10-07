@@ -1,0 +1,568 @@
+{
+  "invoice_number": "COM/330/25-26",
+  "invoice_date": "2025-08-21",
+  "due_date": "2025-10-05",
+  "vendor_name": "Comar, Wali and Uppal",
+  "buyer_name": "Goel Exports",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 5.0,
+      "unit_price": 13956.14,
+      "gst_rate": 5,
+      "amount": 69780.7
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 1.0,
+      "unit_price": 21427.41,
+      "gst_rate": 18,
+      "amount": 21427.41
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 5.0,
+      "unit_price": 13717.85,
+      "gst_rate": 18,
+      "amount": 68589.25
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 31.0,
+      "unit_price": 141.42,
+      "gst_rate": 12,
+      "amount": 4384.02
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 10.0,
+      "unit_price": 13667.54,
+      "gst_rate": 5,
+      "amount": 136675.4
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 5.0,
+      "unit_price": 3316.73,
+      "gst_rate": 12,
+      "amount": 16583.65
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 29.0,
+      "unit_price": 233.78,
+      "gst_rate": 5,
+      "amount": 6779.62
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 14.0,
+      "unit_price": 1992.73,
+      "gst_rate": 12,
+      "amount": 27898.22
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 21.0,
+      "unit_price": 398.75,
+      "gst_rate": 5,
+      "amount": 8373.75
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 23.0,
+      "unit_price": 880.79,
+      "gst_rate": 12,
+      "amount": 20258.17
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 24.0,
+      "unit_price": 270.54,
+      "gst_rate": 5,
+      "amount": 6492.96
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 2.0,
+      "unit_price": 4796.51,
+      "gst_rate": 18,
+      "amount": 9593.02
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 2.0,
+      "unit_price": 6771.16,
+      "gst_rate": 18,
+      "amount": 13542.32
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 7.0,
+      "unit_price": 98.72,
+      "gst_rate": 5,
+      "amount": 691.04
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 5.0,
+      "unit_price": 38035.23,
+      "gst_rate": 28,
+      "amount": 190176.15
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 1.0,
+      "unit_price": 4974.13,
+      "gst_rate": 12,
+      "amount": 4974.13
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 10.0,
+      "unit_price": 105670.13,
+      "gst_rate": 18,
+      "amount": 1056701.3
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 1.0,
+      "unit_price": 16202.3,
+      "gst_rate": 5,
+      "amount": 16202.3
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 3.0,
+      "unit_price": 52406.98,
+      "gst_rate": 18,
+      "amount": 157220.94
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 32.0,
+      "unit_price": 94.87,
+      "gst_rate": 12,
+      "amount": 3035.84
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 5.0,
+      "unit_price": 38973.54,
+      "gst_rate": 28,
+      "amount": 194867.7
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 14.0,
+      "unit_price": 2100.01,
+      "gst_rate": 5,
+      "amount": 29400.14
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 1.0,
+      "unit_price": 48318.67,
+      "gst_rate": 18,
+      "amount": 48318.67
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 10.0,
+      "unit_price": 181229.33,
+      "gst_rate": 18,
+      "amount": 1812293.3
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 35.0,
+      "unit_price": 91.72,
+      "gst_rate": 12,
+      "amount": 3210.2
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 3.0,
+      "unit_price": 3772.38,
+      "gst_rate": 18,
+      "amount": 11317.14
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 24.0,
+      "unit_price": 250.41,
+      "gst_rate": 12,
+      "amount": 6009.84
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 3.0,
+      "unit_price": 432.45,
+      "gst_rate": 12,
+      "amount": 1297.35
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 5.0,
+      "unit_price": 80877.61,
+      "gst_rate": 18,
+      "amount": 404388.05
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 2.0,
+      "unit_price": 20514.88,
+      "gst_rate": 18,
+      "amount": 41029.76
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 3.0,
+      "unit_price": 72330.31,
+      "gst_rate": 18,
+      "amount": 216990.93
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 40.0,
+      "unit_price": 232.88,
+      "gst_rate": 12,
+      "amount": 9315.2
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 1.0,
+      "unit_price": 11763.29,
+      "gst_rate": 18,
+      "amount": 11763.29
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 2.0,
+      "unit_price": 47077.53,
+      "gst_rate": 28,
+      "amount": 94155.06
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 36.0,
+      "unit_price": 852.38,
+      "gst_rate": 12,
+      "amount": 30685.68
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 1.0,
+      "unit_price": 7974.09,
+      "gst_rate": 5,
+      "amount": 7974.09
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 3.0,
+      "unit_price": 52505.84,
+      "gst_rate": 18,
+      "amount": 157517.52
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 1.0,
+      "unit_price": 39948.11,
+      "gst_rate": 18,
+      "amount": 39948.11
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 31.0,
+      "unit_price": 525.08,
+      "gst_rate": 12,
+      "amount": 16277.48
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 39.0,
+      "unit_price": 410.46,
+      "gst_rate": 5,
+      "amount": 16007.94
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 21.0,
+      "unit_price": 424.61,
+      "gst_rate": 5,
+      "amount": 8916.81
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 11.0,
+      "unit_price": 426.5,
+      "gst_rate": 12,
+      "amount": 4691.5
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 10.0,
+      "unit_price": 216946.4,
+      "gst_rate": 18,
+      "amount": 2169464.0
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 2.0,
+      "unit_price": 146536.15,
+      "gst_rate": 18,
+      "amount": 293072.3
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 5.0,
+      "unit_price": 51738.5,
+      "gst_rate": 18,
+      "amount": 258692.5
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 2.0,
+      "unit_price": 139727.45,
+      "gst_rate": 18,
+      "amount": 279454.9
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 2.0,
+      "unit_price": 51211.9,
+      "gst_rate": 18,
+      "amount": 102423.8
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 3.0,
+      "unit_price": 8045.17,
+      "gst_rate": 18,
+      "amount": 24135.51
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 10.0,
+      "unit_price": 26482.73,
+      "gst_rate": 5,
+      "amount": 264827.3
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 1.0,
+      "unit_price": 25085.66,
+      "gst_rate": 18,
+      "amount": 25085.66
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 38.0,
+      "unit_price": 211.3,
+      "gst_rate": 12,
+      "amount": 8029.4
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 1.0,
+      "unit_price": 38343.21,
+      "gst_rate": 18,
+      "amount": 38343.21
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 34.0,
+      "unit_price": 312.74,
+      "gst_rate": 5,
+      "amount": 10633.16
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 3.0,
+      "unit_price": 71032.9,
+      "gst_rate": 18,
+      "amount": 213098.7
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 1.0,
+      "unit_price": 4168.11,
+      "gst_rate": 18,
+      "amount": 4168.11
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 1.0,
+      "unit_price": 17920.79,
+      "gst_rate": 18,
+      "amount": 17920.79
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 21.0,
+      "unit_price": 2291.37,
+      "gst_rate": 12,
+      "amount": 48118.77
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 10.0,
+      "unit_price": 32893.4,
+      "gst_rate": 28,
+      "amount": 328934.0
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 5.0,
+      "unit_price": 84039.07,
+      "gst_rate": 18,
+      "amount": 420195.35
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 10.0,
+      "unit_price": 4500.71,
+      "gst_rate": 12,
+      "amount": 45007.1
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 1.0,
+      "unit_price": 34971.53,
+      "gst_rate": 18,
+      "amount": 34971.53
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 2.0,
+      "unit_price": 89859.22,
+      "gst_rate": 18,
+      "amount": 179718.44
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 34.0,
+      "unit_price": 2131.93,
+      "gst_rate": 12,
+      "amount": 72485.62
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 30.0,
+      "unit_price": 417.49,
+      "gst_rate": 5,
+      "amount": 12524.7
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 35.0,
+      "unit_price": 396.34,
+      "gst_rate": 12,
+      "amount": 13871.9
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 10.0,
+      "unit_price": 21220.51,
+      "gst_rate": 5,
+      "amount": 212205.1
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 10.0,
+      "unit_price": 9769.96,
+      "gst_rate": 5,
+      "amount": 97699.6
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 13.0,
+      "unit_price": 4337.88,
+      "gst_rate": 12,
+      "amount": 56392.44
+    }
+  ],
+  "subtotal": 10237229.84,
+  "tax_amount": 1782289.09,
+  "total_amount": 12019518.93,
+  "vendor_gstin": "33QUFTC3526F6ZE",
+  "buyer_gstin": "03CBUTG5336U4ZI",
+  "vendor_pan": "QUFTC3526F",
+  "place_of_supply": "03-Punjab",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1782289.09,
+  "defect": "multi_page",
+  "expected_needs_review": false,
+  "defect_detail": "68 line items across multiple pages; totals on last page"
+}

@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV-2025-2104",
+  "invoice_date": "2025-07-27",
+  "due_date": "2025-09-10",
+  "vendor_name": "Gokhale Pvt Ltd",
+  "buyer_name": "Khatri-Bhardwaj",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 1.0,
+      "unit_price": 4634.62,
+      "gst_rate": 18,
+      "amount": 4634.62
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 2.0,
+      "unit_price": 578.88,
+      "gst_rate": 12,
+      "amount": 1157.76
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 38.0,
+      "unit_price": 1664.26,
+      "gst_rate": 5,
+      "amount": 63241.88
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 10.0,
+      "unit_price": 8495.48,
+      "gst_rate": 18,
+      "amount": 84954.8
+    }
+  ],
+  "subtotal": 153989.06,
+  "tax_amount": 19427.11,
+  "total_amount": 173416.17,
+  "vendor_gstin": "06EVPTG3705I9Z0",
+  "buyer_gstin": "19WJMLK7118O9ZV",
+  "vendor_pan": "EVPTG3705I",
+  "place_of_supply": "19-West Bengal",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 19427.11,
+  "defect": null,
+  "expected_needs_review": false
+}

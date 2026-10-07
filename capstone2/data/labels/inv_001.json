@@ -1,0 +1,21 @@
+{
+  "invoice_number": "INV-2025-9935",
+  "invoice_date": "2025-03-13",
+  "due_date": "2025-03-28",
+  "vendor_name": "Rodriguez, Figueroa and Sanchez",
+  "buyer_name": "Doyle Ltd",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Office supplies",
+      "quantity": 1.0,
+      "unit_price": 669.98,
+      "amount": 669.98
+    }
+  ],
+  "subtotal": 669.98,
+  "tax_amount": 33.5,
+  "total_amount": 703.48,
+  "defect": null,
+  "expected_needs_review": false
+}

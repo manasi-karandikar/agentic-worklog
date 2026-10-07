@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-9288",
+  "invoice_date": null,
+  "due_date": "2025-11-02",
+  "vendor_name": "Dyer, Potter and Mack",
+  "buyer_name": "Rodriguez-Graham",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 416.93,
+      "amount": 2084.65
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 417.87,
+      "amount": 417.87
+    }
+  ],
+  "subtotal": 2502.52,
+  "tax_amount": 0.0,
+  "total_amount": 2502.52,
+  "defect": "ambiguous_date",
+  "expected_needs_review": true
+}

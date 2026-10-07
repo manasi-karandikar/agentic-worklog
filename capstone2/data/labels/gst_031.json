@@ -1,0 +1,48 @@
+{
+  "invoice_number": "GST41186",
+  "invoice_date": "2025-06-07",
+  "due_date": "2025-07-07",
+  "vendor_name": "Sarma Solutions LLP",
+  "buyer_name": "Dube Group",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 1.0,
+      "unit_price": 5931.4,
+      "gst_rate": 12,
+      "amount": 5931.4
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 2.0,
+      "unit_price": 74888.54,
+      "gst_rate": 18,
+      "amount": 149777.08
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 10.0,
+      "unit_price": 10731.25,
+      "gst_rate": 18,
+      "amount": 107312.5
+    }
+  ],
+  "subtotal": 263020.98,
+  "tax_amount": 46987.9,
+  "total_amount": 310008.88,
+  "vendor_gstin": "99BZKPS3063Z4Z6",
+  "buyer_gstin": "03SGHFD3417Z1Z0",
+  "vendor_pan": "BZKPS3063Z",
+  "place_of_supply": "03-Punjab",
+  "tax_type": "CGST+SGST",
+  "cgst": 23493.95,
+  "sgst": 23493.95,
+  "igst": 0.0,
+  "defect": "invalid_date_or_gstin",
+  "expected_needs_review": true,
+  "defect_detail": "vendor GSTIN invalid (state_code); label records it as printed"
+}

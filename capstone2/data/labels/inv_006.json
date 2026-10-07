@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2026-2489",
+  "invoice_date": "2025-09-18",
+  "due_date": "2025-10-03",
+  "vendor_name": "Blair PLC",
+  "buyer_name": "Dudley Group",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Courier charges",
+      "quantity": 3.0,
+      "unit_price": 229.5,
+      "amount": 688.5
+    },
+    {
+      "description": "Hardware repair",
+      "quantity": 9.0,
+      "unit_price": 243.84,
+      "amount": 2194.56
+    },
+    {
+      "description": "Office supplies",
+      "quantity": 10.0,
+      "unit_price": 365.47,
+      "amount": 3654.7
+    }
+  ],
+  "subtotal": 6537.76,
+  "tax_amount": 326.89,
+  "total_amount": 6864.65,
+  "defect": null,
+  "expected_needs_review": false
+}

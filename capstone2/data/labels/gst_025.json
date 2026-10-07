@@ -1,0 +1,40 @@
+{
+  "invoice_number": "INV-2025-8269",
+  "invoice_date": null,
+  "due_date": "2025-06-06",
+  "vendor_name": "Hari Exports",
+  "buyer_name": "Swaminathan Solutions LLP",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 1.0,
+      "unit_price": 30566.52,
+      "gst_rate": 18,
+      "amount": 30566.52
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 10.0,
+      "unit_price": 9186.96,
+      "gst_rate": 18,
+      "amount": 91869.6
+    }
+  ],
+  "subtotal": 122436.12,
+  "tax_amount": 22038.5,
+  "total_amount": 144474.62,
+  "vendor_gstin": "33KTWHH2315K9ZI",
+  "buyer_gstin": "33RBTCS4846U5ZI",
+  "vendor_pan": "KTWHH2315K",
+  "place_of_supply": "33-Tamil Nadu",
+  "tax_type": "CGST+SGST",
+  "cgst": 11019.25,
+  "sgst": 11019.25,
+  "igst": 0.0,
+  "defect": "invalid_date_or_gstin",
+  "expected_needs_review": true,
+  "defect_detail": "impossible invoice date printed as 13/13/2025; label null"
+}

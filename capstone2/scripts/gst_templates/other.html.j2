@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>{{ o.title }}</title>
+<style>
+@page { size: A4; margin: 18mm; }
+body { font-family: {{ o.font }}; font-size: 13px; color: #111; }
+h1 { font-size: 22px; margin: 0 0 4px; } .muted { color: #555; }
+table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+th, td { border-bottom: 1px solid #ccc; padding: 5px 6px; text-align: left; } .n { text-align: right; }
+</style></head><body>
+<h1>{{ o.title }}</h1>
+<div class="muted">{{ o.org }} &middot; {{ o.address }}</div>
+<p><b>{{ o.ref_label }}:</b> {{ o.ref }} &nbsp; <b>Date:</b> {{ o.date }}</p>
+{% for p in o.paragraphs %}<p>{{ p }}</p>{% endfor %}
+{% if o.rows %}
+<table><thead><tr>{% for h in o.header %}<th{% if loop.index > 1 %} class="n"{% endif %}>{{ h }}</th>{% endfor %}</tr></thead>
+<tbody>{% for r in o.rows %}<tr>{% for c in r %}<td{% if loop.index > 1 %} class="n"{% endif %}>{{ c }}</td>{% endfor %}</tr>{% endfor %}</tbody></table>
+{% endif %}
+<p class="muted" style="margin-top:24px">{{ o.footer }}</p>
+</body></html>

@@ -1,0 +1,39 @@
+{
+  "invoice_number": "ZAC/258/25-26",
+  "invoice_date": "2026-03-23",
+  "due_date": "2026-04-07",
+  "vendor_name": "Zacharia Traders",
+  "buyer_name": "Bhagat, Chaudhari and Bhat",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 1.0,
+      "unit_price": 51647.41,
+      "gst_rate": 28,
+      "amount": 51647.41
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 30.0,
+      "unit_price": 149.9,
+      "gst_rate": 12,
+      "amount": 4497.0
+    }
+  ],
+  "subtotal": 56144.41,
+  "tax_amount": 15000.91,
+  "total_amount": 71145.32,
+  "vendor_gstin": "33HCOTZ2604B9Z4",
+  "buyer_gstin": "29FNPHB4502M1Z4",
+  "vendor_pan": "HCOTZ2604B",
+  "place_of_supply": "29-Karnataka",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15000.91,
+  "defect": null,
+  "expected_needs_review": false
+}

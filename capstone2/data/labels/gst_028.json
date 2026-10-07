@@ -1,0 +1,31 @@
+{
+  "invoice_number": "GST59941",
+  "invoice_date": "2025-10-06",
+  "due_date": "2025-11-05",
+  "vendor_name": "Gandhi LLC",
+  "buyer_name": "Baral Exports",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 35.0,
+      "unit_price": 115.95,
+      "gst_rate": 12,
+      "amount": 4058.25
+    }
+  ],
+  "subtotal": 4058.25,
+  "tax_amount": 487.0,
+  "total_amount": 4545.25,
+  "vendor_gstin": "24PZJLG6549Z2ZY",
+  "buyer_gstin": "24VXVHB6992C7ZX",
+  "vendor_pan": "PZJLG6549Z",
+  "place_of_supply": "24-Gujarat",
+  "tax_type": "CGST+SGST",
+  "cgst": 243.5,
+  "sgst": 243.5,
+  "igst": 0.0,
+  "defect": null,
+  "expected_needs_review": false
+}

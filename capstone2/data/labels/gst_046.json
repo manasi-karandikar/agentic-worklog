@@ -1,0 +1,63 @@
+{
+  "invoice_number": "INV-2025-3114",
+  "invoice_date": "2025-07-03",
+  "due_date": "2025-07-18",
+  "vendor_name": "Mann Enterprises",
+  "buyer_name": "Basak-Sarin",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 3.0,
+      "unit_price": 47760.15,
+      "gst_rate": 28,
+      "amount": 143280.45
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 1.0,
+      "unit_price": 11737.61,
+      "gst_rate": 18,
+      "amount": 11737.61
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 1.0,
+      "unit_price": 19649.06,
+      "gst_rate": 18,
+      "amount": 19649.06
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 5.0,
+      "unit_price": 15747.05,
+      "gst_rate": 18,
+      "amount": 78735.25
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 5.0,
+      "unit_price": 4018.87,
+      "gst_rate": 12,
+      "amount": 20094.35
+    }
+  ],
+  "subtotal": 273496.72,
+  "tax_amount": 62351.78,
+  "total_amount": 335848.5,
+  "vendor_gstin": "08HZPCM6912R6ZS",
+  "buyer_gstin": "08TCCFB7523W8ZW",
+  "vendor_pan": "HZPCM6912R",
+  "place_of_supply": "08-Rajasthan",
+  "tax_type": "CGST+SGST",
+  "cgst": 31175.89,
+  "sgst": 31175.89,
+  "igst": 0.0,
+  "defect": null,
+  "expected_needs_review": false
+}

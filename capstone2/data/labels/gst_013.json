@@ -1,0 +1,40 @@
+{
+  "invoice_number": "RAY/954/25-26",
+  "invoice_date": "2025-11-02",
+  "due_date": "2025-11-17",
+  "vendor_name": "Ray Solutions LLP",
+  "buyer_name": "Barad Solutions LLP",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 21.0,
+      "unit_price": 1982.5,
+      "gst_rate": 12,
+      "amount": 41632.5
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 2.0,
+      "unit_price": 46048.24,
+      "gst_rate": 28,
+      "amount": 92096.48
+    }
+  ],
+  "subtotal": 133728.98,
+  "tax_amount": 30782.91,
+  "total_amount": 164111.89,
+  "vendor_gstin": "19XFOPR9751A7Z6",
+  "buyer_gstin": "06EOFCB5262M6ZF",
+  "vendor_pan": "XFOPR9751A",
+  "place_of_supply": "06-Haryana",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 30782.91,
+  "defect": "total_mismatch",
+  "expected_needs_review": true,
+  "defect_detail": "printed total off by -400 (not fixed in label)"
+}

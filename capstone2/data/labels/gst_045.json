@@ -1,0 +1,31 @@
+{
+  "invoice_number": "INV-2025-3580",
+  "invoice_date": "2025-09-01",
+  "due_date": "2025-10-01",
+  "vendor_name": "Dugar Exports",
+  "buyer_name": "Choudhry Pvt Ltd",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 5.0,
+      "unit_price": 36777.17,
+      "gst_rate": 18,
+      "amount": 183885.85
+    }
+  ],
+  "subtotal": 183885.85,
+  "tax_amount": 33099.46,
+  "total_amount": 216985.31,
+  "vendor_gstin": "08WOGTD5678W8ZT",
+  "buyer_gstin": "08FWOCC6236V6Z2",
+  "vendor_pan": "WOGTD5678W",
+  "place_of_supply": "08-Rajasthan",
+  "tax_type": "CGST+SGST",
+  "cgst": 16549.73,
+  "sgst": 16549.73,
+  "igst": 0.0,
+  "defect": null,
+  "expected_needs_review": false
+}

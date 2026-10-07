@@ -1,0 +1,55 @@
+{
+  "invoice_number": "GST85470",
+  "invoice_date": "2025-05-26",
+  "due_date": "2025-06-25",
+  "vendor_name": "Panchal-Upadhyay",
+  "buyer_name": "Vaidya, D’Alia and Rajan",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 2.0,
+      "unit_price": 47878.7,
+      "gst_rate": 18,
+      "amount": 95757.4
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 39.0,
+      "unit_price": 304.68,
+      "gst_rate": 5,
+      "amount": 11882.52
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 10.0,
+      "unit_price": 13955.71,
+      "gst_rate": 18,
+      "amount": 139557.1
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 1.0,
+      "unit_price": 5805.96,
+      "gst_rate": 12,
+      "amount": 5805.96
+    }
+  ],
+  "subtotal": 253002.98,
+  "tax_amount": 43647.46,
+  "total_amount": 296650.44,
+  "vendor_gstin": "27HUCLP1659Y1ZI",
+  "buyer_gstin": "24HEPLV2874S4Z8",
+  "vendor_pan": "HUCLP1659Y",
+  "place_of_supply": "24-Gujarat",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 43647.46,
+  "defect": null,
+  "expected_needs_review": false
+}

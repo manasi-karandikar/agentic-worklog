@@ -1,0 +1,55 @@
+{
+  "invoice_number": "DAS/950/25-26",
+  "invoice_date": "2025-09-13",
+  "due_date": "2025-10-13",
+  "vendor_name": "Dash, Mital and Tripathi",
+  "buyer_name": "Acharya, Modi and Mangat",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 34.0,
+      "unit_price": 437.23,
+      "gst_rate": 5,
+      "amount": 14865.82
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 40.0,
+      "unit_price": 259.72,
+      "gst_rate": 12,
+      "amount": 10388.8
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 3.0,
+      "unit_price": 49865.53,
+      "gst_rate": 18,
+      "amount": 149596.59
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 10.0,
+      "unit_price": 3758.61,
+      "gst_rate": 12,
+      "amount": 37586.1
+    }
+  ],
+  "subtotal": 212437.31,
+  "tax_amount": 33427.67,
+  "total_amount": 245864.98,
+  "vendor_gstin": "29LRNLD7071C9ZG",
+  "buyer_gstin": "27DNLLA8532W3Z6",
+  "vendor_pan": "LRNLD7071C",
+  "place_of_supply": "27-Maharashtra",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 33427.67,
+  "defect": null,
+  "expected_needs_review": false
+}

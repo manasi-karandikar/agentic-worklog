@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-6147",
+  "invoice_date": "2025-05-14",
+  "due_date": "2025-05-29",
+  "vendor_name": "Ferrell, Rice and Maddox",
+  "buyer_name": "Frazier Inc",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 767.69,
+      "amount": 1535.38
+    },
+    {
+      "description": "Office supplies",
+      "quantity": 10.0,
+      "unit_price": 70.49,
+      "amount": 704.9
+    },
+    {
+      "description": "Office supplies",
+      "quantity": 7.0,
+      "unit_price": 116.7,
+      "amount": 816.9
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 10.0,
+      "unit_price": 539.12,
+      "amount": 5391.2
+    },
+    {
+      "description": "Courier charges",
+      "quantity": 7.0,
+      "unit_price": 595.06,
+      "amount": 4165.42
+    }
+  ],
+  "subtotal": 12613.8,
+  "tax_amount": 1513.66,
+  "total_amount": 14227.46,
+  "defect": "wrong_total",
+  "expected_needs_review": true
+}

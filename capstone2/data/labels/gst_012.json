@@ -1,0 +1,48 @@
+{
+  "invoice_number": "MAL/324/25-26",
+  "invoice_date": "2025-07-22",
+  "due_date": "2025-08-21",
+  "vendor_name": "Malhotra-Basu",
+  "buyer_name": "Pingle PLC",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 25.0,
+      "unit_price": 269.22,
+      "gst_rate": 12,
+      "amount": 6730.5
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 3.0,
+      "unit_price": 3460.21,
+      "gst_rate": 12,
+      "amount": 10380.63
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 5.0,
+      "unit_price": 49593.14,
+      "gst_rate": 18,
+      "amount": 247965.7
+    }
+  ],
+  "subtotal": 265076.83,
+  "tax_amount": 46687.16,
+  "total_amount": 311763.99,
+  "vendor_gstin": "19CNNFM9890O7Z2",
+  "buyer_gstin": "19YSWCP7232P1ZM",
+  "vendor_pan": "CNNFM9890O",
+  "place_of_supply": "19-West Bengal",
+  "tax_type": "CGST+SGST",
+  "cgst": 23343.58,
+  "sgst": 23343.58,
+  "igst": 0.0,
+  "defect": "invalid_date_or_gstin",
+  "expected_needs_review": true,
+  "defect_detail": "vendor GSTIN invalid (check_digit); label records it as printed"
+}

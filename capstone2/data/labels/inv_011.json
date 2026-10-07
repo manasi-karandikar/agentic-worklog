@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-4750",
+  "invoice_date": "2025-02-06",
+  "due_date": "2025-02-21",
+  "vendor_name": "Gray-Mayo",
+  "buyer_name": "Watts, Robinson and Nguyen",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Consulting services",
+      "quantity": 4.0,
+      "unit_price": 66.98,
+      "amount": 267.92
+    },
+    {
+      "description": "Office supplies",
+      "quantity": 10.0,
+      "unit_price": 502.99,
+      "amount": 5029.9
+    }
+  ],
+  "subtotal": 5297.82,
+  "tax_amount": 0.0,
+  "total_amount": 5297.82,
+  "defect": null,
+  "expected_needs_review": false
+}

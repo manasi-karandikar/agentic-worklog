@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-7201",
+  "invoice_date": "2025-08-24",
+  "due_date": "2025-09-08",
+  "vendor_name": "Guzman, Hoffman and Baldwin",
+  "buyer_name": "Gardner, Robinson and Lawrence",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Consulting services",
+      "quantity": 5.0,
+      "unit_price": 730.39,
+      "amount": 3651.95
+    },
+    {
+      "description": "Training workshop",
+      "quantity": 3.0,
+      "unit_price": 631.34,
+      "amount": 1894.02
+    },
+    {
+      "description": "Training workshop",
+      "quantity": 5.0,
+      "unit_price": 148.38,
+      "amount": 741.9
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 92.54,
+      "amount": 185.08
+    },
+    {
+      "description": "Annual maintenance",
+      "quantity": 6.0,
+      "unit_price": 764.27,
+      "amount": 4585.62
+    }
+  ],
+  "subtotal": 11058.57,
+  "tax_amount": 0.0,
+  "total_amount": 11058.57,
+  "defect": null,
+  "expected_needs_review": false
+}

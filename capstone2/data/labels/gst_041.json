@@ -1,0 +1,56 @@
+{
+  "invoice_number": "GST86271",
+  "invoice_date": "2026-02-16",
+  "due_date": "2026-03-18",
+  "vendor_name": "Sama PLC",
+  "buyer_name": "Balasubramanian-Bhat",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 3.0,
+      "unit_price": 739.44,
+      "gst_rate": 12,
+      "amount": 2218.32
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 2.0,
+      "unit_price": 34087.61,
+      "gst_rate": 28,
+      "amount": 68175.22
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 2.0,
+      "unit_price": 77734.16,
+      "gst_rate": 18,
+      "amount": 155468.32
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 16.0,
+      "unit_price": 691.69,
+      "gst_rate": 12,
+      "amount": 11067.04
+    }
+  ],
+  "subtotal": 236928.9,
+  "tax_amount": 48667.6,
+  "total_amount": 285596.5,
+  "vendor_gstin": "071234S4941S7ZJ",
+  "buyer_gstin": "07CQRTB9316R1ZS",
+  "vendor_pan": "NATFS4941S",
+  "place_of_supply": "07-Delhi",
+  "tax_type": "CGST+SGST",
+  "cgst": 24333.8,
+  "sgst": 24333.8,
+  "igst": 0.0,
+  "defect": "invalid_date_or_gstin",
+  "expected_needs_review": true,
+  "defect_detail": "vendor GSTIN invalid (pan); label records it as printed"
+}

@@ -1,0 +1,21 @@
+{
+  "invoice_number": "INV-2026-4450",
+  "invoice_date": "2025-05-20",
+  "due_date": "2025-07-04",
+  "vendor_name": "Harrell LLC",
+  "buyer_name": "Romero, Gonzalez and Brooks",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 3.0,
+      "unit_price": 245.37,
+      "amount": 736.11
+    }
+  ],
+  "subtotal": 736.11,
+  "tax_amount": 36.81,
+  "total_amount": 772.92,
+  "defect": "rotated_page",
+  "expected_needs_review": false
+}

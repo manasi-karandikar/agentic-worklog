@@ -1,0 +1,63 @@
+{
+  "invoice_number": "GST77251",
+  "invoice_date": "2026-02-21",
+  "due_date": "2026-04-07",
+  "vendor_name": "Chand Inc",
+  "buyer_name": "Muni, Pandey and Chawla",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 3.0,
+      "unit_price": 16665.53,
+      "gst_rate": 18,
+      "amount": 49996.59
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 23.0,
+      "unit_price": 2399.09,
+      "gst_rate": 12,
+      "amount": 55179.07
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 2.0,
+      "unit_price": 39972.28,
+      "gst_rate": 18,
+      "amount": 79944.56
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 2.0,
+      "unit_price": 43347.26,
+      "gst_rate": 28,
+      "amount": 86694.52
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 1.0,
+      "unit_price": 4563.63,
+      "gst_rate": 5,
+      "amount": 4563.63
+    }
+  ],
+  "subtotal": 276378.37,
+  "tax_amount": 54513.55,
+  "total_amount": 330891.92,
+  "vendor_gstin": "09ZQICC7955C7ZO",
+  "buyer_gstin": "33DCKLM5843J8ZA",
+  "vendor_pan": "ZQICC7955C",
+  "place_of_supply": "33-Tamil Nadu",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 54513.55,
+  "defect": null,
+  "expected_needs_review": false
+}

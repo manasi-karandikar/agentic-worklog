@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2026-7118",
+  "invoice_date": "2025-06-09",
+  "due_date": "2025-07-09",
+  "vendor_name": "Adams, Zuniga and Wong",
+  "buyer_name": "Reid, Ferguson and Sanchez",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Courier charges",
+      "quantity": 2.0,
+      "unit_price": 880.41,
+      "amount": 1760.82
+    },
+    {
+      "description": "Data migration",
+      "quantity": 3.0,
+      "unit_price": 124.27,
+      "amount": 372.81
+    },
+    {
+      "description": "Courier charges",
+      "quantity": 9.0,
+      "unit_price": 156.96,
+      "amount": 1412.64
+    },
+    {
+      "description": "Office supplies",
+      "quantity": 10.0,
+      "unit_price": 386.59,
+      "amount": 3865.9
+    }
+  ],
+  "subtotal": 7412.17,
+  "tax_amount": 370.61,
+  "total_amount": 7782.78,
+  "defect": null,
+  "expected_needs_review": false
+}

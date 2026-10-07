@@ -1,0 +1,64 @@
+{
+  "invoice_number": "GST41571",
+  "invoice_date": "2025-09-05",
+  "due_date": "2025-09-20",
+  "vendor_name": "Sangha-Rastogi",
+  "buyer_name": "Sidhu-Wadhwa",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 1.0,
+      "unit_price": 72096.25,
+      "gst_rate": 18,
+      "amount": 72096.25
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 1.0,
+      "unit_price": 17332.92,
+      "gst_rate": 5,
+      "amount": 17332.92
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 5.0,
+      "unit_price": 27758.57,
+      "gst_rate": 5,
+      "amount": 138792.85
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 2.0,
+      "unit_price": 142607.2,
+      "gst_rate": 18,
+      "amount": 285214.4
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 2.0,
+      "unit_price": 10847.86,
+      "gst_rate": 18,
+      "amount": 21695.72
+    }
+  ],
+  "subtotal": 535132.14,
+  "tax_amount": 76027.42,
+  "total_amount": 611259.56,
+  "vendor_gstin": "03YUKCS5808N3Z4",
+  "buyer_gstin": "03QYFTS2743U5ZY",
+  "vendor_pan": "YUKCS5808N",
+  "place_of_supply": "03-Punjab",
+  "tax_type": "CGST+SGST",
+  "cgst": 38013.71,
+  "sgst": 38013.71,
+  "igst": 0.0,
+  "defect": "total_mismatch",
+  "expected_needs_review": true,
+  "defect_detail": "printed total off by 100 (not fixed in label)"
+}

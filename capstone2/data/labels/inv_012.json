@@ -1,0 +1,21 @@
+{
+  "invoice_number": "INV-2025-8744",
+  "invoice_date": "2025-10-04",
+  "due_date": "2025-10-19",
+  "vendor_name": "Perez Inc",
+  "buyer_name": "Morales-Jones",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Data migration",
+      "quantity": 9.0,
+      "unit_price": 221.82,
+      "amount": 1996.38
+    }
+  ],
+  "subtotal": 1996.38,
+  "tax_amount": 99.82,
+  "total_amount": 2096.2,
+  "defect": null,
+  "expected_needs_review": false
+}

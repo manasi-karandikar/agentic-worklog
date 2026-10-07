@@ -1,0 +1,30 @@
+{
+  "invoice_number": "51109316",
+  "invoice_date": "2023-05-17",
+  "due_date": null,
+  "vendor_name": "TechVision Distributors Pvt Ltd",
+  "buyer_name": "Chandigarh Tech Square",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "OnePlus 12 256GB Silky Black",
+      "quantity": 9,
+      "unit_price": 59759,
+      "amount": 537831
+    },
+    {
+      "description": "Apple Watch Series 9 GPS 45mm Midnight",
+      "quantity": 9,
+      "unit_price": 48993,
+      "amount": 440937
+    }
+  ],
+  "subtotal": 978768.0,
+  "tax_amount": 97876.8,
+  "total_amount": 1076644.8,
+  "vendor_gstin": "27AABCT1234F1Z5",
+  "buyer_gstin": null,
+  "defect": "invalid_gstin",
+  "expected_needs_review": true,
+  "defect_detail": "vendor GSTIN fails check digit"
+}

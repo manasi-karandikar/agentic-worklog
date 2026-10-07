@@ -1,0 +1,32 @@
+{
+  "invoice_number": "GST25043",
+  "invoice_date": null,
+  "due_date": "2026-03-02",
+  "vendor_name": "Kannan, Sura and Kanda",
+  "buyer_name": "Ramesh Solutions LLP",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 1.0,
+      "unit_price": 37184.71,
+      "gst_rate": 18,
+      "amount": 37184.71
+    }
+  ],
+  "subtotal": 37184.71,
+  "tax_amount": 6693.24,
+  "total_amount": 43877.95,
+  "vendor_gstin": "07VCFPK3847R2ZC",
+  "buyer_gstin": "07JBHFR5632W8ZR",
+  "vendor_pan": "VCFPK3847R",
+  "place_of_supply": "07-Delhi",
+  "tax_type": "CGST+SGST",
+  "cgst": 3346.62,
+  "sgst": 3346.62,
+  "igst": 0.0,
+  "defect": "missing_field",
+  "expected_needs_review": true,
+  "defect_detail": "missing invoice_date"
+}

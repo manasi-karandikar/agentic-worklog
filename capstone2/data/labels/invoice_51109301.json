@@ -1,0 +1,36 @@
+{
+  "invoice_number": "51109301",
+  "invoice_date": null,
+  "due_date": null,
+  "vendor_name": "TechVision Distributors Pvt Ltd",
+  "buyer_name": "Raj Electronics Pvt Ltd",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Garmin Fenix 7 Solar Multisport GPS",
+      "quantity": 9,
+      "unit_price": 74120,
+      "amount": 667080
+    },
+    {
+      "description": "Apple Watch Series 9 GPS 45mm Midnight",
+      "quantity": 8,
+      "unit_price": 52083,
+      "amount": 416664
+    },
+    {
+      "description": "Xiaomi 14 Pro 512GB White",
+      "quantity": 8,
+      "unit_price": 74154,
+      "amount": 593232
+    }
+  ],
+  "subtotal": 1676976.0,
+  "tax_amount": 167697.6,
+  "total_amount": 1844673.6,
+  "vendor_gstin": "27AABCT1234F1Z5",
+  "buyer_gstin": null,
+  "defect": "ambiguous_date",
+  "expected_needs_review": true,
+  "defect_detail": "ambiguous date; vendor GSTIN fails check digit"
+}

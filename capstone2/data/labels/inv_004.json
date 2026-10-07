@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-9751",
+  "invoice_date": "2025-02-06",
+  "due_date": "2025-03-23",
+  "vendor_name": "Blake and Sons",
+  "buyer_name": "Henderson, Ramirez and Lewis",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 6.0,
+      "unit_price": 523.84,
+      "amount": 3143.04
+    },
+    {
+      "description": "Annual maintenance",
+      "quantity": 1.0,
+      "unit_price": 598.52,
+      "amount": 598.52
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 771.23,
+      "amount": 1542.46
+    },
+    {
+      "description": "Training workshop",
+      "quantity": 7.0,
+      "unit_price": 257.4,
+      "amount": 1801.8
+    },
+    {
+      "description": "Office supplies",
+      "quantity": 3.0,
+      "unit_price": 339.46,
+      "amount": 1018.38
+    }
+  ],
+  "subtotal": 8104.2,
+  "tax_amount": 972.5,
+  "total_amount": 9076.7,
+  "defect": null,
+  "expected_needs_review": false
+}

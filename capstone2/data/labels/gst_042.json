@@ -1,0 +1,48 @@
+{
+  "invoice_number": "MAH/986/25-26",
+  "invoice_date": "2025-09-30",
+  "due_date": "2025-10-30",
+  "vendor_name": "Maharaj Industries",
+  "buyer_name": "Kari Exports",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 3.0,
+      "unit_price": 89184.2,
+      "gst_rate": 18,
+      "amount": 267552.6
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 3.0,
+      "unit_price": 33998.53,
+      "gst_rate": 18,
+      "amount": 101995.59
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 10.0,
+      "unit_price": 7755.34,
+      "gst_rate": 5,
+      "amount": 77553.4
+    }
+  ],
+  "subtotal": 447101.59,
+  "tax_amount": 70396.35,
+  "total_amount": null,
+  "vendor_gstin": "33UFYLM8612W8ZM",
+  "buyer_gstin": "07BJGCK4268B6ZZ",
+  "vendor_pan": "UFYLM8612W",
+  "place_of_supply": "07-Delhi",
+  "tax_type": "IGST",
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 70396.35,
+  "defect": "missing_field",
+  "expected_needs_review": true,
+  "defect_detail": "missing total_amount"
+}

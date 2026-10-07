@@ -1,0 +1,40 @@
+{
+  "invoice_number": "ARO/826/25-26",
+  "invoice_date": "2026-02-17",
+  "due_date": "2026-04-03",
+  "vendor_name": "Arora Exports",
+  "buyer_name": "Sule Exports",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 29.0,
+      "unit_price": 274.98,
+      "gst_rate": 12,
+      "amount": 7974.42
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 8.0,
+      "unit_price": 809.7,
+      "gst_rate": 12,
+      "amount": 6477.6
+    }
+  ],
+  "subtotal": 14452.02,
+  "tax_amount": 1734.26,
+  "total_amount": 16186.28,
+  "vendor_gstin": null,
+  "buyer_gstin": "36UOYCS4335I9Z5",
+  "vendor_pan": "QAVTA8569N",
+  "place_of_supply": "36-Telangana",
+  "tax_type": "CGST+SGST",
+  "cgst": 867.13,
+  "sgst": 867.13,
+  "igst": 0.0,
+  "defect": "missing_field",
+  "expected_needs_review": true,
+  "defect_detail": "missing vendor_gstin"
+}

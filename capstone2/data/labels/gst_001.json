@@ -1,0 +1,64 @@
+{
+  "invoice_number": null,
+  "invoice_date": "2025-05-20",
+  "due_date": "2025-06-19",
+  "vendor_name": "Choudhury Solutions LLP",
+  "buyer_name": "Bala Pvt Ltd",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 1.0,
+      "unit_price": 38781.02,
+      "gst_rate": 28,
+      "amount": 38781.02
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 1.0,
+      "unit_price": 249.35,
+      "gst_rate": 12,
+      "amount": 249.35
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 28.0,
+      "unit_price": 205.89,
+      "gst_rate": 5,
+      "amount": 5764.92
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 14.0,
+      "unit_price": 434.17,
+      "gst_rate": 5,
+      "amount": 6078.38
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 7.0,
+      "unit_price": 192.34,
+      "gst_rate": 12,
+      "amount": 1346.38
+    }
+  ],
+  "subtotal": 52220.05,
+  "tax_amount": 11642.32,
+  "total_amount": 63862.37,
+  "vendor_gstin": "03HHELC2679V9ZM",
+  "buyer_gstin": "03GHQTB1434R4ZQ",
+  "vendor_pan": "HHELC2679V",
+  "place_of_supply": "03-Punjab",
+  "tax_type": "CGST+SGST",
+  "cgst": 5821.16,
+  "sgst": 5821.16,
+  "igst": 0.0,
+  "defect": "missing_field",
+  "expected_needs_review": true,
+  "defect_detail": "missing invoice_number"
+}

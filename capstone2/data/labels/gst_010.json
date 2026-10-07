@@ -1,0 +1,256 @@
+{
+  "invoice_number": "GST68008",
+  "invoice_date": "2026-01-30",
+  "due_date": "2026-03-16",
+  "vendor_name": "Mital Solutions LLP",
+  "buyer_name": "Konda LLC",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 10.0,
+      "unit_price": 11247.32,
+      "gst_rate": 18,
+      "amount": 112473.2
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 2.0,
+      "unit_price": 179311.37,
+      "gst_rate": 18,
+      "amount": 358622.74
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 10.0,
+      "unit_price": 11050.44,
+      "gst_rate": 18,
+      "amount": 110504.4
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 2.0,
+      "unit_price": 65016.97,
+      "gst_rate": 18,
+      "amount": 130033.94
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 26.0,
+      "unit_price": 663.82,
+      "gst_rate": 12,
+      "amount": 17259.32
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 1.0,
+      "unit_price": 29388.01,
+      "gst_rate": 18,
+      "amount": 29388.01
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 3.0,
+      "unit_price": 28060.76,
+      "gst_rate": 18,
+      "amount": 84182.28
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 40.0,
+      "unit_price": 290.57,
+      "gst_rate": 5,
+      "amount": 11622.8
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 5.0,
+      "unit_price": 48009.4,
+      "gst_rate": 28,
+      "amount": 240047.0
+    },
+    {
+      "description": "LED bulb 12W",
+      "hsn_code": "85395000",
+      "quantity": 19.0,
+      "unit_price": 134.14,
+      "gst_rate": 12,
+      "amount": 2548.66
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 5.0,
+      "unit_price": 19183.19,
+      "gst_rate": 5,
+      "amount": 95915.95
+    },
+    {
+      "description": "Ayurvedic herbal tonic",
+      "hsn_code": "30049011",
+      "quantity": 30.0,
+      "unit_price": 464.59,
+      "gst_rate": 12,
+      "amount": 13937.7
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 1.0,
+      "unit_price": 21913.44,
+      "gst_rate": 18,
+      "amount": 21913.44
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 10.0,
+      "unit_price": 7166.51,
+      "gst_rate": 5,
+      "amount": 71665.1
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 2.0,
+      "unit_price": 7396.79,
+      "gst_rate": 18,
+      "amount": 14793.58
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 5.0,
+      "unit_price": 15401.97,
+      "gst_rate": 18,
+      "amount": 77009.85
+    },
+    {
+      "description": "Printed brochures",
+      "hsn_code": "4911",
+      "quantity": 1.0,
+      "unit_price": 4200.38,
+      "gst_rate": 12,
+      "amount": 4200.38
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 13.0,
+      "unit_price": 1576.82,
+      "gst_rate": 5,
+      "amount": 20498.66
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 1.0,
+      "unit_price": 89068.29,
+      "gst_rate": 18,
+      "amount": 89068.29
+    },
+    {
+      "description": "Software development services",
+      "hsn_code": "998314",
+      "quantity": 1.0,
+      "unit_price": 135637.4,
+      "gst_rate": 18,
+      "amount": 135637.4
+    },
+    {
+      "description": "Cloud hosting (monthly)",
+      "hsn_code": "998315",
+      "quantity": 5.0,
+      "unit_price": 10194.1,
+      "gst_rate": 18,
+      "amount": 50970.5
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 3.0,
+      "unit_price": 33707.61,
+      "gst_rate": 18,
+      "amount": 101122.83
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 10.0,
+      "unit_price": 2187.27,
+      "gst_rate": 5,
+      "amount": 21872.7
+    },
+    {
+      "description": "Laptop computer",
+      "hsn_code": "84713010",
+      "quantity": 1.0,
+      "unit_price": 77148.38,
+      "gst_rate": 18,
+      "amount": 77148.38
+    },
+    {
+      "description": "Basmati rice 25kg bag",
+      "hsn_code": "10063020",
+      "quantity": 12.0,
+      "unit_price": 2364.93,
+      "gst_rate": 5,
+      "amount": 28379.16
+    },
+    {
+      "description": "Annual maintenance contract",
+      "hsn_code": "998719",
+      "quantity": 5.0,
+      "unit_price": 32156.59,
+      "gst_rate": 18,
+      "amount": 160782.95
+    },
+    {
+      "description": "IT consulting services",
+      "hsn_code": "998313",
+      "quantity": 1.0,
+      "unit_price": 83810.25,
+      "gst_rate": 18,
+      "amount": 83810.25
+    },
+    {
+      "description": "Office chair",
+      "hsn_code": "94013000",
+      "quantity": 3.0,
+      "unit_price": 3766.72,
+      "gst_rate": 18,
+      "amount": 11300.16
+    },
+    {
+      "description": "Steel utensil set",
+      "hsn_code": "7323",
+      "quantity": 34.0,
+      "unit_price": 4453.99,
+      "gst_rate": 12,
+      "amount": 151435.66
+    }
+  ],
+  "subtotal": 2328145.29,
+  "tax_amount": 399213.92,
+  "total_amount": 2727359.21,
+  "vendor_gstin": "32NTQCM7311S4ZB",
+  "buyer_gstin": "32QZRLK4228L7ZN",
+  "vendor_pan": "NTQCM7311S",
+  "place_of_supply": "32-Kerala",
+  "tax_type": "CGST+SGST",
+  "cgst": 199606.96,
+  "sgst": 199606.96,
+  "igst": 0.0,
+  "defect": "multi_page",
+  "expected_needs_review": false,
+  "defect_detail": "29 line items across multiple pages; totals on last page"
+}

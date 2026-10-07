@@ -1,0 +1,63 @@
+{
+  "invoice_number": "GST42953",
+  "invoice_date": "2025-10-13",
+  "due_date": "2025-10-28",
+  "vendor_name": "Loke Ltd",
+  "buyer_name": "Rattan-Loyal",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 2.0,
+      "unit_price": 33263.7,
+      "gst_rate": 28,
+      "amount": 66527.4
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 33.0,
+      "unit_price": 262.6,
+      "gst_rate": 5,
+      "amount": 8665.8
+    },
+    {
+      "description": "Goods transport by road",
+      "hsn_code": "996511",
+      "quantity": 1.0,
+      "unit_price": 26180.33,
+      "gst_rate": 5,
+      "amount": 26180.33
+    },
+    {
+      "description": "Cotton fabric (per metre)",
+      "hsn_code": "5208",
+      "quantity": 11.0,
+      "unit_price": 373.07,
+      "gst_rate": 5,
+      "amount": 4103.77
+    },
+    {
+      "description": "Split air conditioner 1.5T",
+      "hsn_code": "84151010",
+      "quantity": 5.0,
+      "unit_price": 29524.66,
+      "gst_rate": 28,
+      "amount": 147623.3
+    }
+  ],
+  "subtotal": 253100.6,
+  "tax_amount": 61909.7,
+  "total_amount": 315010.3,
+  "vendor_gstin": "07MICPL6155G8ZS",
+  "buyer_gstin": "07EIEPR9830I7ZK",
+  "vendor_pan": "MICPL6155G",
+  "place_of_supply": "07-Delhi",
+  "tax_type": "CGST+SGST",
+  "cgst": 30954.85,
+  "sgst": 30954.85,
+  "igst": 0.0,
+  "defect": null,
+  "expected_needs_review": false
+}

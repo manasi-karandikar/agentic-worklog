@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2025-4946",
+  "invoice_date": "2025-05-03",
+  "due_date": "2025-06-17",
+  "vendor_name": "James Group",
+  "buyer_name": "Flowers, Martin and Kelly",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Courier charges",
+      "quantity": 3.0,
+      "unit_price": 490.05,
+      "amount": 1470.15
+    },
+    {
+      "description": "Data migration",
+      "quantity": 1.0,
+      "unit_price": 543.06,
+      "amount": 543.06
+    },
+    {
+      "description": "Training workshop",
+      "quantity": 1.0,
+      "unit_price": 109.56,
+      "amount": 109.56
+    }
+  ],
+  "subtotal": 2122.77,
+  "tax_amount": 254.73,
+  "total_amount": 2377.5,
+  "defect": null,
+  "expected_needs_review": false
+}

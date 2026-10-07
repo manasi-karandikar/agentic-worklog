@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2026-9317",
+  "invoice_date": "2025-11-17",
+  "due_date": "2026-01-01",
+  "vendor_name": "Williams and Sons",
+  "buyer_name": "Galloway-Wyatt",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Software licence",
+      "quantity": 2.0,
+      "unit_price": 271.22,
+      "amount": 542.44
+    },
+    {
+      "description": "Annual maintenance",
+      "quantity": 8.0,
+      "unit_price": 12.89,
+      "amount": 103.12
+    },
+    {
+      "description": "Courier charges",
+      "quantity": 9.0,
+      "unit_price": 688.15,
+      "amount": 6193.35
+    }
+  ],
+  "subtotal": 6838.91,
+  "tax_amount": 0.0,
+  "total_amount": 6838.91,
+  "defect": null,
+  "expected_needs_review": false
+}

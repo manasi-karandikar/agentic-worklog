@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>{{ L.title }}</title>
+<style>
+@page { size: A4; margin: 14mm 14mm 16mm 14mm; }
+* { box-sizing: border-box; }
+body { font-family: {{ L.font }}; font-size: {{ L.size }}px; color: #111; margin: 0; }
+h1 { margin: 0; font-size: 22px; letter-spacing: 1px; }
+.muted { color: #555; }
+.row { display: flex; justify-content: space-between; gap: 24px; }
+.box { border: 1px solid #999; padding: 8px 10px; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th, td { padding: 5px 6px; text-align: left; vertical-align: top; }
+th.n, td.n { text-align: right; white-space: nowrap; }
+.totals { width: 55%; margin-left: auto; margin-top: 10px; }
+.totals td { padding: 3px 6px; }
+.totals .grand td { font-weight: bold; border-top: 2px solid #111; font-size: {{ L.size + 2 }}px; }
+.notes { margin-top: 18px; font-size: {{ L.size - 1 }}px; }
+.hidden-tiny { color: #fff; font-size: 1px; line-height: 1px; height: 1px; overflow: hidden; }
+{% if L.id == 'a' %}
+.hdr { border-bottom: 3px solid #1f3a6e; padding-bottom: 8px; } h1 { color: #1f3a6e; }
+th { background: #1f3a6e; color: #fff; } td { border-bottom: 1px solid #ddd; }
+{% elif L.id == 'b' %}
+.hdr { text-align: center; border: 2px solid #111; padding: 8px; }
+table, th, td { border: 1px solid #333; } th { background: #eee; }
+{% elif L.id == 'c' %}
+.hdr { background: #0b7a5b; color: #fff; padding: 12px 14px; } .hdr .muted { color: #d6f3ea; }
+th { border-bottom: 2px solid #0b7a5b; color: #0b7a5b; } td { border-bottom: 1px dotted #999; }
+{% elif L.id == 'd' %}
+.hdr { border: 1px solid #111; padding: 8px; } table, th, td { border: 1px solid #111; }
+th { background: #f3e9d2; } body { line-height: 1.35; }
+{% elif L.id == 'e' %}
+.hdr { border-left: 8px solid #b3261e; padding-left: 12px; } h1 { color: #b3261e; font-weight: 300; }
+th { border-top: 1px solid #111; border-bottom: 1px solid #111; text-transform: uppercase; font-size: {{ L.size - 2 }}px; }
+td { border-bottom: 1px solid #eee; } body { padding: 0 6mm; }
+{% else %}
+body { width: 105mm; margin: 0 auto; } .hdr { text-align: center; border-bottom: 1px dashed #000; padding-bottom: 6px; }
+th, td { padding: 2px 3px; } thead th { border-bottom: 1px dashed #000; } .totals { width: 100%; }
+{% endif %}
+</style></head><body>
+
+<div class="hdr">
+  <div class="row" {% if L.id in ('b','f') %}style="display:block"{% endif %}>
+    <div>
+      <h1>{{ L.title }}</h1>
+      {% if d.vendor.name %}<div style="font-size:16px;font-weight:bold;margin-top:4px">{{ d.vendor.name }}</div>{% endif %}
+      <div class="muted">{{ d.vendor.address }}</div>
+      {% if d.vendor.gstin %}<div>{{ L.gstin }}: {{ d.vendor.gstin }}</div>{% endif %}
+      {% if d.vendor.pan %}<div>PAN: {{ d.vendor.pan }}</div>{% endif %}
+    </div>
+    <div {% if L.id not in ('b','f') %}style="text-align:right"{% endif %}>
+      {% if d.invoice_number %}<div><b>{{ L.inv_no }}:</b> {{ d.invoice_number }}</div>{% endif %}
+      {% if d.date_text %}<div><b>{{ L.date }}:</b> {{ d.date_text }}</div>{% endif %}
+      {% if d.due_text %}<div><b>{{ L.due }}:</b> {{ d.due_text }}</div>{% endif %}
+      <div class="muted">Place of supply: {{ d.place_of_supply }}</div>
+    </div>
+  </div>
+</div>
+
+<div class="row" style="margin-top:12px">
+  <div class="box" style="flex:1">
+    <b>{{ L.buyer }}</b><br>{{ d.buyer.name }}<br>{{ d.buyer.address }}<br>
+    {{ L.gstin }}: {{ d.buyer.gstin }}
+  </div>
+  {% if L.id == 'd' %}
+  <div class="box" style="flex:1"><b>Consignee (Ship to)</b><br>{{ d.buyer.name }}<br>{{ d.buyer.address }}</div>
+  {% endif %}
+</div>
+
+<table>
+  <thead><tr>
+    <th>#</th><th>{{ L.desc }}</th>{% if L.show_hsn %}<th>{{ L.hsn }}</th>{% endif %}
+    <th class="n">{{ L.qty }}</th><th class="n">{{ L.rate_col }}</th>
+    {% if L.show_gst_rate %}<th class="n">GST %</th>{% endif %}<th class="n">{{ L.amount }}</th>
+  </tr></thead>
+  <tbody>
+  {% for it in d.lines %}
+  <tr><td>{{ loop.index }}</td><td>{{ it.description }}</td>{% if L.show_hsn %}<td>{{ it.hsn_code }}</td>{% endif %}
+    <td class="n">{{ it.quantity|qty }}</td><td class="n">{{ it.unit_price|inr }}</td>
+    {% if L.show_gst_rate %}<td class="n">{{ it.gst_rate }}%</td>{% endif %}<td class="n">{{ it.amount|inr }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<table class="totals" style="border:none">
+  <tr><td>{{ L.sub }}</td><td class="n">{{ L.sym }} {{ d.subtotal|inr }}</td></tr>
+  {% if d.tax_type == 'CGST+SGST' %}
+  <tr><td>CGST{{ d.rate_suffix }}</td><td class="n">{{ L.sym }} {{ d.cgst|inr }}</td></tr>
+  <tr><td>SGST{{ d.rate_suffix }}</td><td class="n">{{ L.sym }} {{ d.sgst|inr }}</td></tr>
+  {% else %}
+  <tr><td>IGST{{ d.rate_suffix }}</td><td class="n">{{ L.sym }} {{ d.igst|inr }}</td></tr>
+  {% endif %}
+  {% if d.total_amount is not none %}
+  <tr class="grand"><td>{{ L.total }}</td><td class="n">{{ L.sym }} {{ d.total_amount|inr }}</td></tr>
+  {% endif %}
+</table>
+
+{% if d.notes %}<div class="notes"><b>Notes:</b> {{ d.notes }}</div>{% endif %}
+<div class="notes muted">Subject to {{ d.vendor.city }} jurisdiction. This is a computer generated invoice.</div>
+{% if d.hidden_text %}<div class="hidden-tiny">{{ d.hidden_text }}</div>{% endif %}
+</body></html>

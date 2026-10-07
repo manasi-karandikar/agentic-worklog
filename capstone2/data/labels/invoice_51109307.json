@@ -1,0 +1,48 @@
+{
+  "invoice_number": "51109307",
+  "invoice_date": null,
+  "due_date": null,
+  "vendor_name": "TechVision Distributors Pvt Ltd",
+  "buyer_name": "Jaipur Smart Devices",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Dell 27 inch 4K USB-C IPS Monitor",
+      "quantity": 2,
+      "unit_price": 49288,
+      "amount": 98576
+    },
+    {
+      "description": "GoPro Hero 12 Black Action Camera",
+      "quantity": 9,
+      "unit_price": 43272,
+      "amount": 389448
+    },
+    {
+      "description": "Samsung Galaxy Buds2 Pro Graphite",
+      "quantity": 9,
+      "unit_price": 15279,
+      "amount": 137511
+    },
+    {
+      "description": "Samsung T7 Shield 1TB Portable SSD",
+      "quantity": 2,
+      "unit_price": 11376,
+      "amount": 22752
+    },
+    {
+      "description": "Western Digital 2TB My Passport HDD",
+      "quantity": 4,
+      "unit_price": 6598,
+      "amount": 26392
+    }
+  ],
+  "subtotal": 674679.0,
+  "tax_amount": 67467.9,
+  "total_amount": 742146.9,
+  "vendor_gstin": "27AABCT1234F1Z5",
+  "buyer_gstin": null,
+  "defect": "ambiguous_date",
+  "expected_needs_review": true,
+  "defect_detail": "ambiguous date; vendor GSTIN fails check digit"
+}

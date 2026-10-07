@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-2876",
+  "invoice_date": "2025-10-11",
+  "due_date": "2025-11-25",
+  "vendor_name": "Arnold Ltd",
+  "buyer_name": "Mcclure, Ward and Lee",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Hardware repair",
+      "quantity": 7.0,
+      "unit_price": 540.8,
+      "amount": 3785.6
+    },
+    {
+      "description": "Data migration",
+      "quantity": 7.0,
+      "unit_price": 540.34,
+      "amount": 3782.38
+    }
+  ],
+  "subtotal": 7567.98,
+  "tax_amount": 908.16,
+  "total_amount": 8476.14,
+  "defect": null,
+  "expected_needs_review": false
+}
